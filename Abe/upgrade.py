@@ -1021,7 +1021,7 @@ def update_chain_policy(store):
         UPDATE chain
            SET chain_policy = 'Sha256Chain'
          WHERE chain_policy = chain_name
-           AND chain_name IN ('Weeds', 'BeerTokens', 'SolidCoin', 'ScTestnet', 'Worldcoin', 'Anoncoin')""")
+           AND chain_name IN ('atradercoin','Weeds', 'BeerTokens', 'SolidCoin', 'ScTestnet', 'Worldcoin', 'Anoncoin')""")
 
 def populate_multisig_pubkey(store):
     store.init_chains()
